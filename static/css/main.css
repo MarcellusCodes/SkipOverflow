@@ -1,1 +1,7 @@
-ECHO ist eingeschaltet (ON).
+.main-title {
+  font-family: "Ribeye";
+}
+
+.secondary-title {
+  font-family: "Aguafina-Script";
+}
