@@ -8,11 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Landing {{ result }}</h1>
-    <h1
-      x-data="{ message: 'I ❤️ Alpine' }"
-      x-text="message"
-      class="main-title text-2xl shadow-lg"
-    ></h1>
+    {% include '/components/navbar.html' %} {% include
+    '/components/svg/nav-arrow.html' %}
   </body>
 </html>

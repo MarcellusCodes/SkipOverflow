@@ -1,0 +1,23 @@
+.primary-bg {
+  background-color: var(--primary-bg-color);
+}
+
+.secondary-bg {
+  background-color: var(--secondary-bg-color);
+}
+
+.tertiary-bg {
+  background-color: var(--tertiary-bg-color);
+}
+
+.primary-color {
+  color: var(--primary-font-color);
+}
+
+.secondary-color {
+  color: var(--secondary-font-color);
+}
+
+.tertiary-color {
+  color: var(--tertiary-font-color);
+}
