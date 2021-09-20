@@ -1,0 +1,12 @@
+.header {
+  aspect-ratio: 900 / auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/header_bg.svg");
+}
+
+.header-text {
+  overflow: hidden;
+  max-width: 75ch;
+}

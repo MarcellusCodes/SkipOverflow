@@ -2,6 +2,8 @@
 @import url("svg.css");
 @import url("theme.css");
 @import url("typography.css");
+@import url("header.css");
+
 :root {
   --primary-font-color: #292831;
   --secondary-font-color: #7a78ff;
