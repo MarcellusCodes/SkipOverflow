@@ -28,11 +28,22 @@
         lg:text-8xl
         font-bold
         primary-color
+        title
       "
     >
       Skip the Overflow.
     </h1>
-    <p class="font-mono text-lg tertiary-title font-medium mb-20 header-text">
+    <p
+      class="
+        font-mono
+        text-lg
+        tertiary-title
+        font-medium
+        mb-20
+        header-text
+        text
+      "
+    >
       SkipOverflow helps you find coding Errors in seconds including a most
       accepted answer based on a problem and the most highest one. You can also
       save your errors for future references.
@@ -46,9 +57,31 @@
         secondary-bg
         text-xl text-white
         primary-title
+        border-2 border-[#ff9274]
+        hover:bg-transparent hover:text-[#ff9274]
+        transform
+        transition
+        duration-300
+        ease
       "
     >
       Get Started
     </button>
   </div>
 </div>
+<script>
+  ScrollReveal().reveal(".title", {
+    delay: 3300,
+    distance: "-100px",
+    duration: 300,
+    scale: 0.8,
+    easing: "ease-in",
+  });
+  ScrollReveal().reveal(".text", {
+    delay: 4000,
+    distance: "100px",
+    duration: 300,
+    scale: 0.8,
+    easing: "ease-in",
+  });
+</script>
