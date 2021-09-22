@@ -1,9 +1,7 @@
 .header {
   aspect-ratio: 900 / auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   background-image: url("../images/header_bg.svg");
+  border-bottom: 3px solid var(--tertiary-bg-color);
 }
 
 .header-text {

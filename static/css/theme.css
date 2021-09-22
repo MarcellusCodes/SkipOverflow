@@ -21,3 +21,7 @@
 .tertiary-color {
   color: var(--tertiary-font-color);
 }
+
+.quaternary-color {
+  color: var(--secondary-bg-color);
+}

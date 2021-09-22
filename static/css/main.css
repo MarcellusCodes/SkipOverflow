@@ -3,6 +3,8 @@
 @import url("theme.css");
 @import url("typography.css");
 @import url("header.css");
+@import url("./sections/how.css");
+@import url("utilities.css");
 
 :root {
   --primary-font-color: #292831;
@@ -11,4 +13,8 @@
   --primary-bg-color: #393939;
   --secondary-bg-color: #ff9274;
   --tertiary-bg-color: #b2b2b2;
+}
+
+body {
+  overflow-x: hidden;
 }

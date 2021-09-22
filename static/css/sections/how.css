@@ -1,0 +1,20 @@
+.section-how {
+  aspect-ratio: 900 / auto;
+  background-image: url("../../images/how_bg.svg");
+}
+
+.how-card-icon {
+  background-image: url("../../images/how-card-1.svg");
+}
+
+.how-card-icon-2 {
+  background-image: url("../../images/how-card-2.svg");
+}
+
+.how-card-icon-3 {
+  background-image: url("../../images/how-card-3.svg");
+}
+
+.how-card-bg-ratio {
+  aspect-ratio: 125 / 125;
+}

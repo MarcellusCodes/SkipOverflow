@@ -1,0 +1,232 @@
+<section class="section-how bg-no-repeat bg-center bg-cover relative">
+  <img
+    src="{{ url_for('static', path='images/how-section-blob-1.svg') }}"
+    alt="How Section Blob"
+    width="500"
+    height="500"
+    class="absolute left-[-10%] top-0"
+  />
+  <img
+    src="{{ url_for('static', path='images/how-section-blob-2.svg') }}"
+    alt="How Section Blob"
+    width="400"
+    height="400"
+    class="absolute right-[-7%] top-[35%]"
+  />
+  <img
+    src="{{ url_for('static', path='images/how-section-blob-3.svg') }}"
+    alt="How Section Blob"
+    width="450"
+    height="450"
+    class="absolute bottom-[-15%] right-[-7%]"
+  />
+  <div class="container mx-auto py-40 px-4">
+    <h3
+      class="
+        secondary-title
+        text-4xl text-center
+        font-bold
+        sm:text-4xl
+        md:text-5xl
+        lg:text-5xl
+        mb-40
+        secondary-color
+      "
+    >
+      How it works
+    </h3>
+    <div class="flex flex-col items-center space-y-5">
+      <!--How-Card-->
+      <div
+        class="
+          flex flex-col
+          md:flex-row
+          lg:flex-row
+          bg-white
+          rounded-lg
+          p-6
+          border-4 border-[#393939] border-dashed
+          mr-0
+          md:mr-0
+          lg:mr-52
+          sm:mr-0
+          how-card-1
+        "
+      >
+        <div
+          class="
+            how-card-icon how-card-bg-ratio
+            bg-no-repeat bg-center bg-cover
+            w-[125px]
+            h-[125px]
+            flex
+            items-center
+            justify-center
+          "
+        >
+          <img
+            src="{{ url_for('static', path='images/how-search.svg') }}"
+            alt="How Icon"
+            width="56px"
+            height="56px"
+          />
+        </div>
+        <div class="flex flex-col items-start">
+          <h4
+            class="
+              primary-title
+              text-2xl
+              sm:text-2xl
+              md:text-4xl
+              lg:text-4xl
+              font-bold
+              primary-color
+            "
+          >
+            Search your Error
+          </h4>
+          <p class="font-mono text-lg tertiary-title font-medium header-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+            quod perferendis recusandae cumque rem dignissimos.
+          </p>
+        </div>
+      </div>
+      {% include '/components/svg/how-card-arrow.html' %}
+      <!--How-Card-->
+      <div
+        class="
+          flex flex-col
+          md:flex-row
+          lg:flex-row
+          bg-white
+          rounded-lg
+          p-6
+          border-4 border-[#393939] border-dashed
+          ml-0
+          md:ml-0
+          lg:ml-52
+          sm:ml-0
+          how-card-2
+        "
+      >
+        <div
+          class="
+            how-card-icon-2 how-card-bg-ratio
+            bg-no-repeat bg-center bg-cover
+            w-[125px]
+            h-[125px]
+            flex
+            items-center
+            justify-center
+          "
+        >
+          <img
+            src="{{ url_for('static', path='images/how-solution.svg') }}"
+            alt="How Icon"
+            width="56px"
+            height="56px"
+          />
+        </div>
+        <div class="flex flex-col items-start">
+          <h4
+            class="
+              primary-title
+              text-2xl
+              sm:text-2xl
+              md:text-4xl
+              lg:text-4xl
+              font-bold
+              primary-color
+            "
+          >
+            Get Solutions
+          </h4>
+          <p class="font-mono text-lg tertiary-title font-medium header-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+            quod perferendis recusandae cumque rem dignissimos.
+          </p>
+        </div>
+      </div>
+      {% include '/components/svg/how-card-arrow.html' %}
+      <!--How-Card-->
+      <div
+        class="
+          flex flex-col
+          md:flex-row
+          lg:flex-row
+          bg-white
+          rounded-lg
+          p-6
+          border-4 border-[#393939] border-dashed
+          mr-0
+          md:mr-0
+          lg:mr-52
+          sm:mr-0
+          how-card-3
+        "
+      >
+        <div
+          class="
+            how-card-icon-3
+            bg-no-repeat bg-center bg-cover
+            how-card-bg-ratio
+            w-[125px]
+            h-[125px]
+            flex
+            items-center
+            justify-center
+          "
+        >
+          <img
+            src="{{ url_for('static', path='images/how-save.svg') }}"
+            alt="How Icon"
+            width="56px"
+            height="56px"
+          />
+        </div>
+        <div class="flex flex-col items-start">
+          <h4
+            class="
+              primary-title
+              text-2xl
+              sm:text-2xl
+              md:text-4xl
+              lg:text-4xl
+              font-bold
+              primary-color
+            "
+          >
+            Fix your problem & Save it
+          </h4>
+          <p class="font-mono text-lg tertiary-title font-medium header-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+            quod perferendis recusandae cumque rem dignissimos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  ScrollReveal().reveal(".how-card-1", {
+    delay: 300,
+    distance: "-500px",
+    duration: 600,
+    easing: "ease-in-out",
+    origin: "right",
+  });
+  ScrollReveal().reveal(".how-card-2", {
+    delay: 300,
+    distance: "500px",
+    duration: 600,
+    easing: "ease-in-out",
+    origin: "right",
+  });
+  ScrollReveal().reveal(".how-card-3", {
+    delay: 300,
+    distance: "-500px",
+    duration: 600,
+    easing: "ease-in-out",
+    origin: "right",
+  });
+</script>

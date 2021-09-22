@@ -1,5 +1,14 @@
 <div
-  class="header w-full h-auto min-h-screen sm:h-auto md:h-screen lg:h-screen"
+  class="
+    header
+    w-full
+    h-auto
+    min-h-screen
+    sm:h-auto
+    md:h-screen
+    lg:h-screen
+    bg-no-repeat bg-center bg-cover
+  "
 >
   {% include '/components/navbar.html' %}
   <div
@@ -8,9 +17,9 @@
     <h3
       class="
         secondary-title
-        text-3xl
+        text-4xl
         font-bold
-        sm:text-3xl
+        sm:text-4xl
         md:text-5xl
         lg:text-5xl
         secondary-color
@@ -71,14 +80,21 @@
 </div>
 <script>
   ScrollReveal().reveal(".title", {
-    delay: 3300,
+    delay: 3100,
     distance: "-100px",
     duration: 300,
     scale: 0.8,
     easing: "ease-in",
   });
   ScrollReveal().reveal(".text", {
-    delay: 4000,
+    delay: 3800,
+    distance: "100px",
+    duration: 300,
+    scale: 0.8,
+    easing: "ease-in",
+  });
+  ScrollReveal().reveal(".test1", {
+    delay: 5000,
     distance: "100px",
     duration: 300,
     scale: 0.8,
